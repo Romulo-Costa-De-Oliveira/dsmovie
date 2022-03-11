@@ -6,11 +6,11 @@ function Pagination(){
         <div className="dsmovie-pagination-container">
             <div className="dsmovie-pagination-box">
                 <button className="dsmovie-pagination-button" disabled={true} >
-                    <Arrow className="dsmovie-flip-horizontal"/>
+                    <Arrow />
                 </button>
                 <p>{`${1} de ${3}`}</p>
                 <button className="dsmovie-pagination-button" disabled={false} >
-                    <Arrow />
+                    <Arrow className="dsmovie-flip-horizontal" />
                 </button>
             </div>
         </div>
